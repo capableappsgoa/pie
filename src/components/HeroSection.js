@@ -43,8 +43,7 @@ export const HeroSection = () => {
             />
           </div>
         </div>
-        <div className="absolute h-full w-1/2 right-0 top-[-10%] bg-[#ecfff0] flex md:block">
-          
+        <div className="absolute h-full w-1/2 right-0 top-[-10%] flex md:block">
           <img
             src="https://i.ibb.co/BHD3TGg/I9-Ui-Ig-Knh-Ex95vgwbc-ENO1-Zssbf23.png"
             className="w-80 absolute translate-x-[100%] top-24 object-cover transform -rotate-[18deg] z-10"
