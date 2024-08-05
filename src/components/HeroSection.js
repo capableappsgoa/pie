@@ -1,9 +1,10 @@
-import playstore from "../assets/playstore.png";
+import playstore from "../assets/yellow.png";
 export const HeroSection = () => {
+
   return (
-    <section className="relative">
-      <div className="max-w-screen-xl mx-auto px-4 py-28 gap-12 text-gray-600 overflow-hidden md:px-8 md:flex relative z-10">
-        <div className="flex-none space-y-5 max-w-xl mt-28">
+    <section className="relative h-auto">
+      <div className="max-w-screen-xl mx-auto px-4 gap-12 text-gray-600 overflow-hidden md:px-8 md:flex relative z-10">
+        <div className="flex-none space-y-5 w-1/2 max-w-xl mt-28">
           <a
             href="javascript:void(0)"
             className="inline-flex gap-x-6 items-center rounded-full p-1 pr-6 border border-[#6de1a180] text-sm font-medium duration-150 bg-[#ecfff0] hover:bg-white"
@@ -43,19 +44,24 @@ export const HeroSection = () => {
             />
           </div>
         </div>
-        <div className="absolute h-full w-1/2 right-0 top-[-10%] flex md:block">
+        <div className="h-full relative bg-black w-1/2">
           <img
             src="https://i.ibb.co/BHD3TGg/I9-Ui-Ig-Knh-Ex95vgwbc-ENO1-Zssbf23.png"
-            className="w-80 absolute translate-x-[100%] top-24 object-cover transform -rotate-[18deg] z-10"
+            className="w-80 absolute translate-x-[100%] translate-y-[5%]  transform -rotate-[18deg] z-10"
           />
           <img
             src="https://i.ibb.co/BHD3TGg/I9-Ui-Ig-Knh-Ex95vgwbc-ENO1-Zssbf23.png"
-            className="w-80 absolute translate-x-[-20%] -top-20 object-cover transform -rotate-[18deg] z-10"
+            className="w-80 absolute translate-x-[-30%] translate-y-[-35%] object-cover transform -rotate-[18deg] z-10"
           />
           <img
             src="https://i.ibb.co/BHD3TGg/I9-Ui-Ig-Knh-Ex95vgwbc-ENO1-Zssbf23.png"
-            className="w-80 absolute translate-x-[40%] bottom-[-55%] object-cover transform -rotate-[18deg] z-10"
+            className="w-80 absolute translate-x-[30%] translate-y-[57%] object-cover transform -rotate-[18deg] z-10"
           />
+          {/* <img
+          width={5200}
+            src="https://i.ibb.co/86j90MY/788468-12566-NOCDET.png"
+            className="absolute translate-x-[-0%] bottom-[-10%] "
+          /> */}
         </div>
       </div>
     </section>
