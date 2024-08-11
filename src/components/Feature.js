@@ -1,9 +1,8 @@
 import React from "react";
 import { LiaStarSolid } from "react-icons/lia";
 export const Feature = () => {
-  const backgroundImage = "http://via.placeholder.com/350x150/";
   return (
-    <div className="h-40 w-full flex flex-col mt-10 justify-center items-center">
+    <div className="h-40 w-full flex flex-col mt-20 justify-center items-center">
       <div className="w-full text-center">
         <h1 className="text-lg text-gray-400 mt-10 plus-jakarta-sans">
           We've been featured in

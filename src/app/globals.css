@@ -13,12 +13,13 @@
 }
 body {
   position: relative;
+ 
 }
 .plus-jakarta-sans {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
-  line-height: 150%;
+
   text-decoration: none;
   text-transform: none;
 }
@@ -37,7 +38,6 @@ body {
   /* background-color: rgb(251, 0, 0); */
   white-space: nowrap;
   position: relative;
-
 }
 
 .BrandSlides:before,
@@ -81,4 +81,8 @@ body {
 .BrandSlides-slide img {
   object-fit: contain;
   margin: 0 40px;
+}
+.backgroundshadow {
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
