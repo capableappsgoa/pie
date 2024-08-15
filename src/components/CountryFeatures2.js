@@ -1,12 +1,12 @@
 import { MdOutlinePlayCircleOutline } from "react-icons/md";
 import Flag from 'react-world-flags'
-export default function CountriesFeatures(props) {
+export default function CountriesFeatures2(props) {
   return (
-    <div className="overflow-hidden bg-white">
+    <div className="overflow-hidden bg-white mt-10">
       <div className="mx-auto max-w-7xl px-6 py-2 lg:px-8">
         <div className="mx-auto grid grif max-w-2xl rounded-3xl backgroundshadow py-10 grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 justify-center  items-center lg:max-w-none lg:grid-cols-2">
-          <div className="lg:pr-8 lg:pt-4 order-1 ">
-            <div className="lg:max-w-lg text-left">
+          <div className="lg:pr-8 lg:pt-4">
+            <div className="lg:max-w-lg text-left ml-14">
               <a
                 href="javascript:void(0)"
                 className="inline-flex  rounded-full p-3 pr-6 border border-[#0000002e] text-sm font-medium duration-150 hover:bg-white"
@@ -24,37 +24,14 @@ export default function CountriesFeatures(props) {
                 building a passive income stream today
               </p>
             </div>
-            <div className="flex gap-x-3 sm:text-sm mt-5">
+            <div className="flex gap-x-3 sm:text-sm mt-5 ml-14">
               <a
                 href="javascript:void(0)"
                 className="block py-3 px-4 font-medium text-center text-white rounded-lg bg-[#121c30]"
               >
                 Learn more
               </a>
-              <button
-                id="dropdownDefaultButton"
-                data-dropdown-toggle="dropdown"
-                className="text-black border focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-3 py-2.5 text-center inline-flex items-center"
-                type="button"
-              >
-                <MdOutlinePlayCircleOutline className="w-5 h-5 text-green-600" />
-                Watch how it works{" "}
-                <svg
-                  class="w-2.5 h-2.5 ms-3"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 10 6"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="m1 1 4 4 4-4"
-                  />
-                </svg>
-              </button>
+             
             </div>
           </div>
           <div className="parent_screenshot w-full flex items-center justify-end">

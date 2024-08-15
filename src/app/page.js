@@ -1,6 +1,7 @@
 "use client";
 import { Banner } from "@/components/Banner";
 import CountriesFeatures from "@/components/CountriesFeatures";
+import CountriesFeatures2 from "@/components/CountryFeatures2";
 import { Feature } from "@/components/Feature";
 import GlobalRank from "@/components/GlobalRank";
 import { HeroSection } from "@/components/HeroSection";
@@ -16,7 +17,8 @@ export default () => {
       <Feature />
       <Howitworks />
       <GlobalRank />
-      <CountriesFeatures />
+      <CountriesFeatures  />
+      <CountriesFeatures2 />
     </>
   );
 };
