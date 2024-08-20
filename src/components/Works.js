@@ -7,7 +7,7 @@ export default function Works() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 justify-center  items-center lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg ml-12">
-              <h1 className="text-2xl inter font-semibold text-[#209476]">
+              <h1 className="text-2xl inter font-semibold text-blue-600">
               Browse
               </h1>
               <p className="mt-2 text-3xl plus-jakarta-sans tracking-tight text-gray-900 sm:text-4xl">
@@ -32,7 +32,7 @@ export default function Works() {
           </div>
           <img
             alt="Product screenshot"
-            src="https://i.ibb.co/GVCQjLd/B2-SQf-SFFCo0ewv-Ev-Vzj-Bwh-Y8-A.png"
+            src="https://i.ibb.co/3NTjvjX/Untitled-5.png"
             className="w-40 rounded-xl sm:w-[57rem] md:-ml-4  lg:-ml-4"
           />
         </div>

@@ -14,7 +14,7 @@ const stats = [
               <div key={stat.id} className="mx-auto flex max-w-xs flex-col gap-y-4">
                 <dt className="text-base leading-7 text-gray-600">{stat.name}</dt>
                 <dd className="order-first flex text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-                  {stat.value} <p className=" text-green-600">M+</p>
+                  {stat.value} <p className=" text-blue-600">M+</p>
                 </dd>
               </div>
             ))}

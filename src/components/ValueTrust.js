@@ -6,16 +6,16 @@ import Flag from "react-world-flags";
 export const ValueTrust = () => {
   return (
     <div className="bg-slate-800 flex flex-col justify-center mt-20 items-center">
-      <p className="text-lg text-green-100 font-bold pt-24">
+      <p className="text-lg text-blue-100 font-bold pt-24">
         Safety never sleeps
       </p>
       <h1 className="text-5xl text-white pt-6 font-bold text-center">
         We value your trust as <br /> much as your investments
       </h1>
       <div className="pt-10 min-w-60 justify-center flex items-center">
-        <div className="h-14 w-auto px-5 bg-green-100 flex items-center rounded-lg justify-center">
-          <HiShieldCheck className="text-green-700 w-6 h-6" />
-          <p className="text-green-600 font-bold ml-4">Dual regulated</p>
+        <div className="h-14 w-auto px-5 bg-blue-100 flex items-center rounded-lg justify-center">
+          <HiShieldCheck className="text-blue-700 w-6 h-6" />
+          <p className="text-blue-600 font-bold ml-4">Dual regulated</p>
         </div>
         <div className="h-14 px-5 w-auto flex items-center rounded-lg ml-5 justify-center">
           <RiGovernmentFill className="text-white w-6 h-6" />
@@ -24,7 +24,7 @@ export const ValueTrust = () => {
       </div>
       <div className="h-auto w-[80%] mt-5 mb-10 flex rounded-3xl border-grey-300 border-[1px] py-9 px-2">
         <div className="h-full w-1/2 mt-7 flex flex-col items-start text-left">
-          <HiShieldCheck className="w-10 h-10 ml-5 text-green-300" />
+          <HiShieldCheck className="w-10 h-10 ml-5 text-blue-300" />
           <p className="font-bold text-3xl ml-5 text-white text-left mt-10">
             Dual regulated
           </p>

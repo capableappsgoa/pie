@@ -333,7 +333,7 @@ export const Navbar = () => {
                       fill="currentColor"
                       height="1.2em"
                       width="1.2em"
-                      className="mr-2 text-green-500"
+                      className="mr-2 text-blue-500"
                     >
                       <path
                         fill="none"

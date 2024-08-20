@@ -27,7 +27,7 @@ export default function MobileFeatureTwo() {
               </div>
               <div className="ml-5 h-auto flex flex-col">
                 <h1 className="text-3xl plus-jakarta-sans font-semibold text-left">
-                  5.67<span className="text-green-400">%</span>
+                  5.67<span className="text-blue-400">%</span>
                 </h1>
                 <p className="text-base leading-8 inter text-gray-600">
                 Average Investor Appreciation in 2023
@@ -36,7 +36,7 @@ export default function MobileFeatureTwo() {
             </div>
           </div>
           <div className="w-full relative flex items-center justify-center">
-            <div className="h-[30rem] w-[30rem] rounded-full bg-green-600"></div>
+            <div className="h-[30rem] w-[30rem] rounded-full bg-blue-600"></div>
             <img
               alt="Product screenshot"
               src="https://i.ibb.co/0VFjJxp/MGQkh-Wn-RU9-Gxn-ODYu-NPCJk-Yh-Mn-A.png"

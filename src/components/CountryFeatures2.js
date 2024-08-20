@@ -37,7 +37,7 @@ export default function CountriesFeatures2(props) {
           <div className="parent_screenshot w-full flex items-center justify-end">
             <img
               alt="Product screenshot"
-              src="https://i.ibb.co/74yCrHk/a-Untitled-1.png"
+              src="https://i.ibb.co/3NTjvjX/Untitled-5.png"
               className="w-32  rounded-xl sm:w-[35rem] md:-ml-4  lg:-ml-4"
             />
           </div>

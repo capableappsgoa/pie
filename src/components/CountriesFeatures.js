@@ -37,7 +37,7 @@ export default function CountriesFeatures(props) {
                 className="text-black border focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-3 py-2.5 text-center inline-flex items-center"
                 type="button"
               >
-                <MdOutlinePlayCircleOutline className="w-5 h-5 text-green-600" />
+                <MdOutlinePlayCircleOutline className="w-5 h-5 text-blue-600" />
                 Watch how it works{" "}
                 <svg
                   class="w-2.5 h-2.5 ms-3"
@@ -60,7 +60,7 @@ export default function CountriesFeatures(props) {
           <div className="parent_screenshot w-full flex items-center justify-end">
             <img
               alt="Product screenshot"
-              src="https://i.ibb.co/74yCrHk/a-Untitled-1.png"
+              src="https://i.ibb.co/G2zFYvq/GOAN-HOUSES1.png"
               className="w-32  rounded-xl sm:w-[35rem] md:-ml-4  lg:-ml-4"
             />
           </div>

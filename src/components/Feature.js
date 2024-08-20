@@ -117,19 +117,7 @@ export const Feature = () => {
           />
         </div>
       </div>
-      <div className="w-full h-6 text-center flex justify-center items-center mt-10">
-        <h1 className="text-sm inter mr-3">4.7 Excellent</h1>
-        <LiaStarSolid className="text-green-600 text-lg" />
-        <LiaStarSolid className="text-green-600 text-lg" />
-        <LiaStarSolid className="text-green-600 text-lg" />
-        <LiaStarSolid className="text-green-600 text-lg" />
-        <LiaStarSolid className="text-green-600 text-lg" />
-        <LiaStarSolid className="text-green-600 text-lg" />
-        <h1 className="text-sm inter mr-3 flex justify-center items-center ml-3">
-          <LiaStarSolid className="text-black text-sm mr-1" />
-          Trustpilot
-        </h1>
-      </div>
+     
     </div>
   );
 };
