@@ -7,24 +7,24 @@ export const HeroSection = () => {
         <div className="flex-none space-y-5 w-1/2 max-w-xl mt-28">
           <a
             href="javascript:void(0)"
-            className="inline-flex gap-x-6 items-center rounded-full p-1 pr-6 border border-[#6de1a180] text-sm font-medium duration-150 bg-[#ecfff0] hover:bg-white"
+            className="inline-flex gap-x-6 items-center rounded-full p-1 pr-6 border border-[#202094] text-sm font-medium duration-150 bg-[#ecfbff] hover:bg-white"
           >
             <svg
               fill="currentColor"
               viewBox="0 0 16 16"
-              className="ml-2 text-green-700"
+              className="ml-2 text-blue-700"
               height="1em"
               width="1em"
             >
               <path d="M0 8a8 8 0 1016 0A8 8 0 000 8zm5.904 2.803a.5.5 0 11-.707-.707L9.293 6H6.525a.5.5 0 110-1H10.5a.5.5 0 01.5.5v3.975a.5.5 0 01-1 0V6.707l-4.096 4.096z" />
             </svg>
-            <p className="flex items-center inter text-[#209476]">
+            <p className="flex items-center inter text-[#202094]">
               10.3% average investor returns in 2023
             </p>
           </a>
           <h1 className="lg:text-6xl text-gray-800 font-extrabold sm:text-5xl plus-jakarta-sans">
             Build your wealth through{" "}
-            <span className="text-[#41ce8e]">real estate</span>
+            <span className="text-[#202094]">real estate</span>
           </h1>
           <p className="inter font-bold">
             Thousands of investors all over the world are using Stake to access

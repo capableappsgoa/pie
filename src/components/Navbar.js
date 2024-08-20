@@ -180,12 +180,13 @@ export const Navbar = () => {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="javascript:void(0)">
               <img
-                src="https://i.ibb.co/Nj1YNCz/getstake.png"
-                width={80}
-                className="pb-5 py-3"
+                src="https://i.ibb.co/r2p2gzT/Whats-App-Image-2024-08-13-at-11-06-42-042a9299.jpg"
+                width={50}
+                className="pb-0 py-0"
                 alt="stakes"
               />
             </a>
+           
             <div className="md:hidden">
               <button
                 className="text-gray-500 hover:text-gray-800"
