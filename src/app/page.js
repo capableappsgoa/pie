@@ -15,6 +15,7 @@ import { Navbar } from "@/components/Navbar";
 import { Testimonial } from "@/components/Testimonial";
 import { ValueTrust } from "@/components/ValueTrust";
 
+Header: () => <strong>ID</strong>
 const Page = () => {
   return (
     <>
