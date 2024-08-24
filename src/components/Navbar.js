@@ -138,7 +138,7 @@ export const Navbar = () => {
       navs: dropdownNavs,
     },
     {
-      title: "Visa Programs",
+      title: "Pie Premium",
       path: "javascript:void(0)",
       isDrapdown: true,
       navs: dropdownNavs,

@@ -36,7 +36,7 @@ export default function MobileFeatureThree() {
             </div>
           </div>
           <div className="w-full relative flex items-center justify-center">
-            <div className="h-[30rem] w-[30rem] rounded-full bg-blue-600"></div>
+            <div className="h-[30rem] w-[30rem] rounded-full bg-yellow-300"></div>
             <img
               alt="Product screenshot"
               src="https://i.ibb.co/XpJGsJj/8zon-GCUX2-TBRHC0s-V91-Wifbg-Q.png"

@@ -1,6 +1,5 @@
 import playstore from "../assets/yellow.png";
 export const HeroSection = () => {
-
   return (
     <section className="relative h-auto">
       <div className="max-w-screen-xl mx-auto px-4 gap-12 text-gray-600 overflow-hidden md:px-8 md:flex relative z-10">
@@ -22,13 +21,16 @@ export const HeroSection = () => {
               Join a growing community of Real Estate Enthusiast
             </p>
           </a>
-          <h1 className="lg:text-6xl text-gray-800 font-extrabold sm:text-5xl plus-jakarta-sans">
-            Build your wealth {" "}
-            <span className="text-[#202094] mt-2">One Piece at a Time</span>
+          <h1 className="lg:text-6xl  text-[#202094] font-extrabold sm:text-5xl plus-jakarta-sans">
+            Build your wealth{" "}
+          </h1>
+          <h1 className="lg:text-6xl sm:text-5xl plus-jakarta-sans text-yellow-400 mt-5">
+            One PIE at a Time
           </h1>
           <p className="inter font-bold">
-            Join thousands of Investers worldwide through Goa blooming real estate market 
-            with PIE - start building your wealth with just multiples of Rs. 5000
+            Join thousands of Investers worldwide through Goa blooming real
+            estate market with PIE - start building your wealth with just
+            multiples of Rs. 5000
           </p>
           <div className="flex items-center gap-x-3 sm:text-sm">
             <img
@@ -43,25 +45,13 @@ export const HeroSection = () => {
             />
           </div>
         </div>
-        <div className="h-full relative bg-black w-1/2">
-        
+        <div className="w-full relative flex items-center justify-center">
+          <div className="h-[25rem] w-[25rem] rounded-full bg-blue-600"></div>
           <img
-            src="https://i.ibb.co/drFZY7C/Untitled-2.png"
-            className="w-80 absolute translate-x-[100%] translate-y-[5%]  transform -rotate-[18deg] z-10"
+            alt="Product screenshot"
+            src="https://i.ibb.co/0VFjJxp/MGQkh-Wn-RU9-Gxn-ODYu-NPCJk-Yh-Mn-A.png"
+            className="w-20 absolute rounded-xl sm:w-[18rem] md:-ml-4  lg:-ml-4"
           />
-          <img
-            src="https://i.ibb.co/drFZY7C/Untitled-2.png"
-            className="w-80 absolute translate-x-[-30%] translate-y-[-35%] object-cover transform -rotate-[18deg] z-10"
-          />
-          <img
-            src="https://i.ibb.co/drFZY7C/Untitled-2.png"
-            className="w-80 absolute translate-x-[30%] translate-y-[57%] object-cover transform -rotate-[18deg] z-10"
-          />
-          {/* <img
-          width={5200}
-            src="https://i.ibb.co/86j90MY/788468-12566-NOCDET.png"
-            className="absolute translate-x-[-0%] bottom-[-10%] "
-          /> */}
         </div>
       </div>
     </section>

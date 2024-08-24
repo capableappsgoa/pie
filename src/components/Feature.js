@@ -12,109 +12,100 @@ export const Feature = () => {
         <div class="BrandSlides-slide">
           <img
             className="w-32"
-            src="https://i.ibb.co/dMV8MvN/bmj-Gw-XUu-BIi-T0w-HVLQTsd-GAl-FA9ae5.png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjM2mfnPK-xKiAomu4G2cTlEhmzextozc3eg&s"
             alt="bmj-Gw-XUu-BIi-T0w-HVLQTsd-GAl-FA9ae5"
           />
           <img
             className="w-32"
-            src="https://i.ibb.co/S7R0pFm/E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23.png"
+            src="https://i.ibb.co/dMV8MvN/bmj-Gw-XUu-BIi-T0w-HVLQTsd-GAl-FA9ae5.png"
             alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
           />
 
           <img
             className="w-32"
-            src="https://i.ibb.co/S7R0pFm/E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23.png"
+            src="https://i.ibb.co/bPHFt2c/builders4.png"
             alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
           />
           <img
             className="w-32"
-            src="https://i.ibb.co/S7R0pFm/E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23.png"
+            src="https://i.ibb.co/S00FdkF/builders.png"
             alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
           />
           <img
             className="w-32"
-            src="https://i.ibb.co/dMV8MvN/bmj-Gw-XUu-BIi-T0w-HVLQTsd-GAl-FA9ae5.png"
+            src="https://i.ibb.co/3fh77JP/builders2.png"
             alt="bmj-Gw-XUu-BIi-T0w-HVLQTsd-GAl-FA9ae5"
           />
           <img
             className="w-32"
-            src="https://i.ibb.co/S7R0pFm/E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23.png"
+            src="https://i.ibb.co/2hgdwpB/builders3.png"
+            alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
+          />
+
+<img
+            className="w-32"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjM2mfnPK-xKiAomu4G2cTlEhmzextozc3eg&s"
+            alt="bmj-Gw-XUu-BIi-T0w-HVLQTsd-GAl-FA9ae5"
+          />
+          <img
+            className="w-32"
+            src="https://i.ibb.co/dMV8MvN/bmj-Gw-XUu-BIi-T0w-HVLQTsd-GAl-FA9ae5.png"
             alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
           />
 
           <img
             className="w-32"
-            src="https://i.ibb.co/S7R0pFm/E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23.png"
+            src="https://i.ibb.co/bPHFt2c/builders4.png"
             alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
           />
           <img
             className="w-32"
-            src="https://i.ibb.co/S7R0pFm/E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23.png"
+            src="https://i.ibb.co/S00FdkF/builders.png"
             alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
           />
           <img
             className="w-32"
-            src="https://i.ibb.co/dMV8MvN/bmj-Gw-XUu-BIi-T0w-HVLQTsd-GAl-FA9ae5.png"
+            src="https://i.ibb.co/3fh77JP/builders2.png"
             alt="bmj-Gw-XUu-BIi-T0w-HVLQTsd-GAl-FA9ae5"
           />
           <img
             className="w-32"
-            src="https://i.ibb.co/S7R0pFm/E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23.png"
+            src="https://i.ibb.co/2hgdwpB/builders3.png"
+            alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
+          />
+
+<img
+            className="w-32"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjM2mfnPK-xKiAomu4G2cTlEhmzextozc3eg&s"
+            alt="bmj-Gw-XUu-BIi-T0w-HVLQTsd-GAl-FA9ae5"
+          />
+          <img
+            className="w-32"
+            src="https://i.ibb.co/dMV8MvN/bmj-Gw-XUu-BIi-T0w-HVLQTsd-GAl-FA9ae5.png"
             alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
           />
 
           <img
             className="w-32"
-            src="https://i.ibb.co/S7R0pFm/E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23.png"
+            src="https://i.ibb.co/bPHFt2c/builders4.png"
             alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
           />
           <img
             className="w-32"
-            src="https://i.ibb.co/S7R0pFm/E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23.png"
+            src="https://i.ibb.co/S00FdkF/builders.png"
             alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
           />
           <img
             className="w-32"
-            src="https://i.ibb.co/dMV8MvN/bmj-Gw-XUu-BIi-T0w-HVLQTsd-GAl-FA9ae5.png"
+            src="https://i.ibb.co/3fh77JP/builders2.png"
             alt="bmj-Gw-XUu-BIi-T0w-HVLQTsd-GAl-FA9ae5"
           />
           <img
             className="w-32"
-            src="https://i.ibb.co/S7R0pFm/E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23.png"
+            src="https://i.ibb.co/2hgdwpB/builders3.png"
             alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
           />
 
-          <img
-            className="w-32"
-            src="https://i.ibb.co/S7R0pFm/E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23.png"
-            alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
-          />
-          <img
-            className="w-32"
-            src="https://i.ibb.co/S7R0pFm/E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23.png"
-            alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
-          />
-          <img
-            className="w-32"
-            src="https://i.ibb.co/dMV8MvN/bmj-Gw-XUu-BIi-T0w-HVLQTsd-GAl-FA9ae5.png"
-            alt="bmj-Gw-XUu-BIi-T0w-HVLQTsd-GAl-FA9ae5"
-          />
-          <img
-            className="w-32"
-            src="https://i.ibb.co/S7R0pFm/E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23.png"
-            alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
-          />
-
-          <img
-            className="w-32"
-            src="https://i.ibb.co/S7R0pFm/E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23.png"
-            alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
-          />
-          <img
-            className="w-32"
-            src="https://i.ibb.co/S7R0pFm/E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23.png"
-            alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
-          />
         </div>
       </div>
      
