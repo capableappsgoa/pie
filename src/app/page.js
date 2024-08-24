@@ -15,26 +15,25 @@ import { Navbar } from "@/components/Navbar";
 import { Testimonial } from "@/components/Testimonial";
 import { ValueTrust } from "@/components/ValueTrust";
 
-Header: () => <strong>ID</strong>
-const Page = () => {
-  return (
-    <>
-      <Banner />
-      <Navbar />
-      <HeroSection />
-      <Feature />
-      <Howitworks />
-      <GlobalRank />
-      <CountriesFeatures  />
-      <CountriesFeatures2 />
-      <GrowYourMoney />
-      <MobileFeature />
-      <MobileFeatureTwo/>
-      <MobileFeatureThree />
-      <ValueTrust />
-      <Testimonial />
-      <FooterCode />
-    </>
-  );
-};
-export default Page
+
+const Page = () => (
+  <>
+    <Banner />
+    <Navbar />
+    <HeroSection />
+    <Feature />
+    <Howitworks />
+    <GlobalRank />
+    <CountriesFeatures />
+    <CountriesFeatures2 />
+    <GrowYourMoney />
+    <MobileFeature />
+    <MobileFeatureTwo />
+    <MobileFeatureThree />
+    <ValueTrust />
+    <Testimonial />
+    <FooterCode />
+  </>
+);
+Page.displayName = "Page";
+export default Page;
