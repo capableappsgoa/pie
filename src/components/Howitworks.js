@@ -1,7 +1,7 @@
 import React from "react";
 import Works from "./Works";
 
-export const Howitworks = () => {
+export default function Howitworks () {
   return (
     <>
       <div className="w-full mt-36 text-center plus-jakarta-sans flex justify-center items-center flex-col">

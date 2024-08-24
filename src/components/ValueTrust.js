@@ -3,7 +3,7 @@ import { RiGovernmentFill } from "react-icons/ri";
 import { HiShieldCheck } from "react-icons/hi2";
 import { BsArrowUpRightCircleFill } from "react-icons/bs";
 import Flag from "react-world-flags";
-export const ValueTrust = () => {
+export default function ValueTrust () {
   return (
     <div className="bg-slate-800 flex flex-col justify-center mt-20 items-center">
       <p className="text-lg text-blue-100 font-bold pt-24">

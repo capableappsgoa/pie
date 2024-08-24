@@ -1,6 +1,6 @@
 import React from "react";
 import { LiaStarSolid } from "react-icons/lia";
-export const Feature = () => {
+export default function Feature () {
   return (
     <div className="h-40 w-full flex flex-col mt-20 justify-center items-center">
       <div className="w-full text-center">

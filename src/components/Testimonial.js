@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Testimonial = () => {
+export default function Testimonial () {
   return (
    <>
    <section id="testimonies" class="py-20">

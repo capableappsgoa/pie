@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const FooterCode = () => {
+export default function FooterCode  ()  {
   return (
     <>
     <footer
