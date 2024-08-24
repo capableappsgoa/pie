@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function GrowYourMoney() {
+export const GrowYourMoney = () => {
   return (
     <div className="bg-white py-5 sm:pt-32">
       <div className="mx-auto max-w-9xl px-6 lg:px-8">

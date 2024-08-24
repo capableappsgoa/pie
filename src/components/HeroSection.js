@@ -1,5 +1,5 @@
 import playstore from "../assets/yellow.png";
-export default function HeroSection () {
+export const HeroSection = () => {
   return (
     <section className="relative h-auto">
       <div className="max-w-screen-xl mx-auto px-4 gap-12 text-gray-600 overflow-hidden md:px-8 md:flex relative z-10">

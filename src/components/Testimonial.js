@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Testimonial () {
+export const Testimonial = () => {
   return (
    <>
    <section id="testimonies" class="py-20">
@@ -14,10 +14,10 @@ export default function Testimonial () {
                     Words from Others
                 </div>
                 <h1 class="mb-5 text-3xl font-semibold text-blue-600 md:text-center md:text-5xl">
-                    It's not just us.
+                    Its not just us.
                 </h1>
                 <p class="text-xl text-blue-600 md:text-center md:text-2xl">
-                    Here's what others have to say about us.
+                    Heres what others have to say about us.
                 </p>
             </div>
         </div>
@@ -80,8 +80,8 @@ export default function Testimonial () {
                                         src="https://pbs.twimg.com/profile_images/1276461929934942210/cqNhNk6v_400x400.jpg"
                                         class="w-12 h-12 bg-center bg-cover border rounded-full" alt="Kanye West"/>
                                     <div>
-                                        <h3 class="text-lg font-semibold text-slate-800">Kanye West</h3>
-                                        <p class="text-gray-500 text-md">Rapper &amp; Entrepreneur</p>
+                                        <h3 class="text-lg font-semibold text-slate-800">Nada</h3>
+                                        <p class="text-gray-500 text-md">Real Estate &amp; Entrepreneur</p>
                                     </div>
                                 </div>
                                 <p class="leading-normal text-slate-800 text-md">Find God.</p>

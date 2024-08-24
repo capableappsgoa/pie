@@ -1,6 +1,6 @@
 import React from "react";
 import { useState , useEffect } from "react";
-export default function Navbar () {
+export const Navbar = () => {
   const [state, setState] = useState(false);
   const [drapdownState, setDrapdownState] = useState({
     isActive: false,

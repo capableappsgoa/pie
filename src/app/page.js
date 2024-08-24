@@ -15,7 +15,7 @@ import { Navbar } from "@/components/Navbar";
 import { Testimonial } from "@/components/Testimonial";
 import { ValueTrust } from "@/components/ValueTrust";
 
-export default () => {
+export default Page = () => {
   return (
     <>
       <Banner />

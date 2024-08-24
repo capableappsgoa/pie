@@ -1,11 +1,9 @@
-import React from "react";
-import { LiaStarSolid } from "react-icons/lia";
-export default function Feature () {
+export const Feature = () => {
   return (
     <div className="h-40 w-full flex flex-col mt-20 justify-center items-center">
       <div className="w-full text-center">
         <h1 className="text-lg text-gray-400 mt-10 plus-jakarta-sans">
-          We've been featured in
+          We are featured in
         </h1>
       </div>
       <div class="BrandSlides mt-5 w-[70%]">
@@ -42,7 +40,7 @@ export default function Feature () {
             alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
           />
 
-<img
+          <img
             className="w-32"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjM2mfnPK-xKiAomu4G2cTlEhmzextozc3eg&s"
             alt="bmj-Gw-XUu-BIi-T0w-HVLQTsd-GAl-FA9ae5"
@@ -74,7 +72,7 @@ export default function Feature () {
             alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
           />
 
-<img
+          <img
             className="w-32"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjM2mfnPK-xKiAomu4G2cTlEhmzextozc3eg&s"
             alt="bmj-Gw-XUu-BIi-T0w-HVLQTsd-GAl-FA9ae5"
@@ -105,10 +103,8 @@ export default function Feature () {
             src="https://i.ibb.co/2hgdwpB/builders3.png"
             alt="E0-G81b-Jkmi-Yx72eh-Bw-Ip-EPDK8obf23"
           />
-
         </div>
       </div>
-     
     </div>
   );
 };
