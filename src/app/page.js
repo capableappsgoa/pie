@@ -15,7 +15,7 @@ import { Navbar } from "@/components/Navbar";
 import { Testimonial } from "@/components/Testimonial";
 import { ValueTrust } from "@/components/ValueTrust";
 
-export default function Page () {
+const Page = () => {
   return (
     <>
       <Banner />
@@ -36,3 +36,4 @@ export default function Page () {
     </>
   );
 };
+export default Page
