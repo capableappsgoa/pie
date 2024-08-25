@@ -49,8 +49,8 @@ export const HeroSection = () => {
           <div className="h-[25rem] w-[25rem] rounded-full bg-blue-600"></div>
           <img
             alt="Product screenshot"
-            src="https://i.ibb.co/0VFjJxp/MGQkh-Wn-RU9-Gxn-ODYu-NPCJk-Yh-Mn-A.png"
-            className="w-20 absolute rounded-xl sm:w-[18rem] md:-ml-4  lg:-ml-4"
+            src="https://i.ibb.co/drFZY7C/Untitled-2.png"
+            className="w-20 absolute rounded-xl sm:w-[15rem] md:-ml-4  lg:-ml-4"
           />
         </div>
       </div>
