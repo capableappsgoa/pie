@@ -16,7 +16,7 @@ export default function MobileFeatureTwo() {
                 funds near maturity
               </p>
             </div>
-            <div className="flex gap-x-3 ml-20 sm:text-sm mt-5">
+            {/* <div className="flex gap-x-3 ml-20 sm:text-sm mt-5">
               <div className="h-auto flex  flex-col">
                 <h1 className="text-3xl plus-jakarta-sans font-semibold">
                   200+
@@ -33,7 +33,7 @@ export default function MobileFeatureTwo() {
                 Average Investor Appreciation in 2023
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="w-full relative flex items-center justify-center">
             <div className="h-[30rem] w-[30rem] rounded-full bg-blue-600"></div>

@@ -150,12 +150,6 @@ export const Navbar = () => {
       navs: dropdownNavs,
     },
     {
-      title: "Learn",
-      path: "javascript:void(0)",
-      isDrapdown: true,
-      navs: dropdownNavs,
-    },
-    {
       title: "Company",
       path: "",
       isDrapdown: true,

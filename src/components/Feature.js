@@ -2,7 +2,7 @@ export const Feature = () => {
   return (
     <div className="h-40 w-full flex flex-col mt-20 justify-center items-center">
       <div className="w-full text-center">
-        <h1 className="text-lg text-gray-400 mt-10 plus-jakarta-sans">
+        <h1 className="text-lg text-gray-400 mt-10 lato-bold">
           We are featured in
         </h1>
       </div>

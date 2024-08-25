@@ -17,17 +17,17 @@ export const HeroSection = () => {
             >
               <path d="M0 8a8 8 0 1016 0A8 8 0 000 8zm5.904 2.803a.5.5 0 11-.707-.707L9.293 6H6.525a.5.5 0 110-1H10.5a.5.5 0 01.5.5v3.975a.5.5 0 01-1 0V6.707l-4.096 4.096z" />
             </svg>
-            <p className="flex items-center inter text-[#202094]">
+            <p className="flex items-center lato-regular inter text-[#202094]">
               Join a growing community of Real Estate Enthusiast
             </p>
           </a>
-          <h1 className="lg:text-6xl  text-[#202094] font-extrabold sm:text-5xl dm-serif-display-regular">
+          <h1 className="lg:text-6xl  text-[#202094] sm:text-5xl lato-bold">
             Build your wealth{" "}
           </h1>
-          <h1 className="lg:text-6xl sm:text-5xl dm-serif-display-regular text-yellow-400 mt-5">
+          <h1 className="lg:text-6xl sm:text-5xl lato-bold text-yellow-400 mt-5">
             One PIE at a Time
           </h1>
-          <p className="inter font-bold">
+          <p className="lato-regular">
             Join thousands of Investers worldwide through Goa blooming real
             estate market with PIE - start building your wealth with just
             multiples of &#8377; 5000
