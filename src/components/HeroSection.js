@@ -21,10 +21,10 @@ export const HeroSection = () => {
               Join a growing community of Real Estate Enthusiast
             </p>
           </a>
-          <h1 className="lg:text-6xl  text-[#202094] font-extrabold sm:text-5xl plus-jakarta-sans">
+          <h1 className="lg:text-6xl  text-[#202094] font-extrabold sm:text-5xl dm-serif-display-regular">
             Build your wealth{" "}
           </h1>
-          <h1 className="lg:text-6xl sm:text-5xl plus-jakarta-sans text-yellow-400 mt-5">
+          <h1 className="lg:text-6xl sm:text-5xl dm-serif-display-regular text-yellow-400 mt-5">
             One PIE at a Time
           </h1>
           <p className="inter font-bold">
