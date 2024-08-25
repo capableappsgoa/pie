@@ -11,10 +11,10 @@ export default function Works() {
               Browse
               </h1>
               <p className="mt-2 text-3xl plus-jakarta-sans tracking-tight text-gray-900 sm:text-4xl">
-              Access prime real estate across multiple markets
+              Access diverse real estate in Goa. Building, land & Hospitality
               </p>
               <p className="mt-6 text-lg leading-8 inter text-gray-600">
-              Sign up in less than 3 minutes and browse our collection of global properties and funds, sourced by experts
+              Sign up in less than 3 minutes and browse our collection of clear & verified properties and funds, sourced by recognized & authorized valuaters & Market Experts
               </p>
             </div>
             <div className="flex items-center gap-x-3 sm:text-sm ml-12">

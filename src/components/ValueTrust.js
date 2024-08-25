@@ -42,8 +42,8 @@ export const ValueTrust = () => {
               <Flag code="ind" className="w-7 h-7 ml-5" />
               <BsArrowUpRightCircleFill className="text-white w-7 h-7 mr-5" />
             </div>
-            <h1 className="text-white ml-5 mt-8 font-bold">Regulated In India</h1>
-            <p className="text-gray-400 ml-5 mt-2">We are regulated in india by Financila Authority of India.<br/>By the finance bof so & so authority.</p>
+            <h1 className="text-white ml-5 mt-8 font-bold">Regulated In Goa</h1>
+            <p className="text-gray-400 ml-5 mt-2">We are regulated in Goa by GAR.<br/> & By the finance authority.</p>
           </div>
           <div className="h-auto rounded-2xl px-5 py-5 flex mt-5 flex-col bg-slate-800 border-grey-300 border-[1px] justify-between">
             <div className="h-full w-full flex justify-start">

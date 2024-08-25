@@ -30,7 +30,7 @@ export const HeroSection = () => {
           <p className="inter font-bold">
             Join thousands of Investers worldwide through Goa blooming real
             estate market with PIE - start building your wealth with just
-            multiples of Rs. 5000
+            multiples of &#8377; 5000
           </p>
           <div className="flex items-center gap-x-3 sm:text-sm">
             <img

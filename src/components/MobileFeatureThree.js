@@ -19,7 +19,7 @@ export default function MobileFeatureThree() {
             <div className="flex gap-x-3 sm:text-sm mt-5">
               <div className="h-auto flex flex-col">
                 <h1 className="text-3xl plus-jakarta-sans font-semibold">
-                  AED 16.9M+
+                &#8377; 16.9M+
                 </h1>
                 <p className="text-base leading-8 inter text-gray-600">
                   Total Rental Income Paid

@@ -13,15 +13,15 @@ export default function CountriesFeatures(props) {
               >
                 <Flag code="ind" className="w-7 h-7 mr-4"/>
                 <p className="flex items-center inter">
-                  India
+                  Goa
                 </p>
               </a>
               <p className=" text-3xl plus-jakarta-sans tracking-tight text-gray-900 sm:text-4xl mt-3">
-                Invest in the world’s best performing residential market
+                Invest in the Goa's top performing residential market
               </p>
               <p className="mt-6 text-lg leading-8 inter text-gray-600">
-                Purchase shares in high yield properties in Dubai and start
-                building a passive income stream today
+                Purchase shares in high yield properties in Goa and start
+                earning monthly rental income today
               </p>
             </div>
             <div className="flex gap-x-3 sm:text-sm mt-5">

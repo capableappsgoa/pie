@@ -17,11 +17,10 @@ export default function CountriesFeatures2(props) {
                 </p>
               </a>
               <p className=" text-3xl plus-jakarta-sans tracking-tight text-gray-900 sm:text-4xl mt-3">
-                Invest in the world’s best performing residential market
+              Access premium properties in Goa's booming market
               </p>
               <p className="mt-6 text-lg leading-8 inter text-gray-600">
-                Purchase shares in high yield properties in Dubai and start
-                building a passive income stream today
+              Invest in prime and commerical & resisdential properties like ,  Dona Paula , candolim , Porvorim & colva previusly reserved for high-net-worth investors
               </p>
             </div>
             <div className="flex gap-x-3 sm:text-sm mt-5 ml-14">
