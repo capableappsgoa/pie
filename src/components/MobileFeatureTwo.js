@@ -39,7 +39,7 @@ export default function MobileFeatureTwo() {
             <div className="h-[30rem] w-[30rem] rounded-full bg-blue-600"></div>
             <img
               alt="Product screenshot"
-              src="https://i.ibb.co/0VFjJxp/MGQkh-Wn-RU9-Gxn-ODYu-NPCJk-Yh-Mn-A.png"
+              src="https://i.ibb.co/QPxKrjG/mobile-feature-2.png"
               className="w-20 absolute rounded-xl sm:w-[22rem] md:-ml-4  lg:-ml-4"
             />
           </div>
