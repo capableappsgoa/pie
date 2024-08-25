@@ -46,11 +46,13 @@ export const HeroSection = () => {
           </div>
         </div>
         <div className="w-full relative flex items-center justify-center">
-          <div className="h-[25rem] w-[25rem] rounded-full bg-blue-600"></div>
+          <div className="h-[25rem] w-[25rem] rounded-full bg-blue-600">
+
+          </div>
           <img
             alt="Product screenshot"
             src="https://i.ibb.co/drFZY7C/Untitled-2.png"
-            className="w-20 absolute rounded-xl sm:w-[15rem] md:-ml-4  lg:-ml-4"
+            className="w-20 absolute rounded-xl sm:w-[17rem] md:-ml-4  lg:-ml-4"
           />
         </div>
       </div>
