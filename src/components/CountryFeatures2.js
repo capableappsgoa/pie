@@ -11,16 +11,16 @@ export default function CountriesFeatures2(props) {
                 href="javascript:void(0)"
                 className="inline-flex rounded-full p-3 pr-6 border border-[#0000002e] text-sm font-medium duration-150 hover:bg-white"
               >
-                <Flag code="ind" className="w-7 h-7 mr-4"/>
+                <Flag code="ind" className="w-7 h-7 mr-4" />
                 <p className="flex items-center inter">
                   India
                 </p>
               </a>
               <p className=" text-3xl plus-jakarta-sans tracking-tight text-gray-900 sm:text-4xl mt-3">
-              Access premium properties in Goa's booming market
+                Access premium properties in Goa's booming market
               </p>
               <p className="mt-6 text-lg leading-8 inter text-gray-600">
-              Invest in prime and commerical & resisdential properties like ,  Dona Paula , candolim , Porvorim & colva previusly reserved for high-net-worth investors
+                Invest in prime and commerical & resisdential properties like ,  Dona Paula , candolim , Porvorim & colva previusly reserved for high-net-worth investors
               </p>
             </div>
             <div className="flex gap-x-3 sm:text-sm mt-5 lg:ml-14">
@@ -30,7 +30,7 @@ export default function CountriesFeatures2(props) {
               >
                 Learn more
               </a>
-             
+
             </div>
           </div>
           <div className="parent_screenshot w-full flex items-center justify-end">
