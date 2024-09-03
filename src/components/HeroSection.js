@@ -3,7 +3,7 @@ export const HeroSection = () => {
   return (
     <section className="relative h-auto">
       <div className="max-w-screen-xl mx-auto px-4 gap-12 text-gray-600 overflow-hidden md:px-8 md:flex relative z-10">
-        <div className="flex-none space-y-5 w-1/2 max-w-xl mt-28">
+        <div className="flex-none space-y-5 lg:w-1/2 sm:w-[80%] max-w-xl mt-28">
           <a
             href="javascript:void(0)"
             className="inline-flex gap-x-6 items-center rounded-full p-1 pr-6 border border-[#202094] text-sm font-medium duration-150 bg-[#ecfbff] hover:bg-white"
@@ -21,10 +21,10 @@ export const HeroSection = () => {
               Join a growing community of Real Estate Enthusiast
             </p>
           </a>
-          <h1 className="lg:text-6xl  text-[#202094] sm:text-5xl lato-bold">
+          <h1 className="lg:text-6xl  text-[#202094] text-5xl lato-bold">
             Build your wealth{" "}
           </h1>
-          <h1 className="lg:text-6xl sm:text-5xl lato-bold text-yellow-400 mt-5">
+          <h1 className="lg:text-6xl text-4xl lato-bold text-yellow-400 mt-5">
             One PIE at a Time
           </h1>
           <p className="lato-regular">
@@ -46,13 +46,13 @@ export const HeroSection = () => {
           </div>
         </div>
         <div className="w-full relative flex items-center justify-center">
-          <div className="h-[25rem] w-[25rem] rounded-full bg-blue-600">
+          <div className="h-[20rem] w-[20rem] lg:h-[25rem] lg:w-[25rem]  rounded-full bg-blue-600">
 
           </div>
           <img
             alt="Product screenshot"
             src="https://i.ibb.co/drFZY7C/Untitled-2.png"
-            className="w-20 absolute rounded-xl sm:w-[17rem] md:-ml-4  lg:-ml-4"
+            className="lg:w-[15rem] absolute rounded-xl w-[11rem] md:-ml-4  lg:-ml-4"
           />
         </div>
       </div>

@@ -4,7 +4,7 @@ export default function CountriesFeatures(props) {
   return (
     <div className="overflow-hidden bg-white">
       <div className="mx-auto max-w-7xl px-6 py-2 lg:px-8">
-        <div className="mx-auto grid grif max-w-2xl rounded-3xl backgroundshadow py-10 grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 justify-center  items-center lg:max-w-none lg:grid-cols-2">
+        <div className="mx-auto grid grif max-w-2xl rounded-3xl md:backgroundshadow py-10 grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 justify-center  items-center lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4 order-1 ">
             <div className="lg:max-w-lg text-left">
               <a
@@ -61,7 +61,7 @@ export default function CountriesFeatures(props) {
             <img
               alt="Product screenshot"
               src="https://i.ibb.co/f8SYcQL/stakes.png"
-              className="w-32  rounded-xl sm:w-[35rem] md:-ml-4  lg:-ml-4"
+              className="w-full  rounded-xl lg:w-[full] md:-ml-4  lg:-ml-4"
             />
           </div>
         </div>
