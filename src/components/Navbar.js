@@ -1,5 +1,7 @@
 import React from "react";
 import { useState , useEffect } from "react";
+import Link from 'next/link'
+
 export const Navbar = () => {
   const [state, setState] = useState(false);
   const [drapdownState, setDrapdownState] = useState({
@@ -412,7 +414,9 @@ export const Navbar = () => {
                     </ul>
                   </div> */}
                 </li>
+                <Link href="/Login">
                 <li>
+                  
                   <a
                     href="javascript:void(0)"
                     className="block py-3 px-4 font-medium text-center text-black rounded-lg shadow md:inline"
@@ -420,6 +424,7 @@ export const Navbar = () => {
                     Login
                   </a>
                 </li>
+                </Link>
                 <li>
                   <a
                     href="javascript:void(0)"
