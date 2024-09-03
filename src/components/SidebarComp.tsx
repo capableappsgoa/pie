@@ -1,6 +1,7 @@
 'use client'
 
 import React from 'react'
+import { SideComponents } from './SideComponents'
 
 const SidebarComp = () => {
   return (
@@ -129,7 +130,7 @@ const SidebarComp = () => {
       </aside>
 
       <div className="p-4 sm:ml-64">
-        
+        <SideComponents />
         
       </div>
 

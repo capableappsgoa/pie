@@ -18,7 +18,7 @@ import { ValueTrust } from "@/components/ValueTrust";
 
 const Page = () => (
   <>
-    <Banner />
+    {/* <Banner />
     <Navbar />
     <HeroSection />
     <Feature />
@@ -32,7 +32,8 @@ const Page = () => (
     <MobileFeatureThree />
     <ValueTrust />
     <Testimonial />
-    <FooterCode />
+    <FooterCode /> */}
+    maintanance updates
   </>
 );
 Page.displayName = "Page";
