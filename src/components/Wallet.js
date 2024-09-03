@@ -14,21 +14,21 @@ export const Wallet = () => {
                 <div className="flex items-center justify-center px-5 py-20 h-24 rounded-xl bg-white shadow-md">
                     <div className='w-1/2 h-auto flex flex-col'>
                         <p className="text-2xl pt-2 px-3 text-gray-400 dark:text-gray-500">Cash balance</p>
-                        <p className="text-5xl py-3 font-semibold px-3 text-gray-400 dark:text-black">Rs 40000</p>
+                        <p className="text-5xl py-3 font-semibold px-3 text-gray-400 dark:text-black">&#8377; 40000</p>
                     </div>
                     <div className='w-1/2 h-auto flex flex-col justify-end items-end'>
-                        <div className='w-fit rounded py-3 px-12 mt-5 bg-slate-400 text-gray-200'>Deposit</div>
-                        <div className='w-fit rounded py-3 px-10 mt-5 border border-slate-300 text-gray-400'>Withdraw</div>
+                        <div className='w-fit rounded py-3 px-12 mt-5 bg-blue-600 transition ease-linear text-gray-200 hover:bg-blue-400 cu&#8377;or-pointer'>Deposit</div>
+                        <div className='w-fit rounded py-3 px-10 mt-5 bg-blue-300 border border-blue-300 hover:border-blue-100 transition ease-linear cu&#8377;or-pointer hover:bg-black text-white'>Withdraw</div>
                     </div>
                 </div>
                 <div className="flex items-center justify-center px-5 py-20 h-24 rounded-xl bg-white shadow-md">
                     <div className='w-1/2 h-auto flex flex-col'>
                         <p className="text-2xl pt-2 px-3 text-gray-400 dark:text-gray-500 flex">Rewards Balance <IoIosInformationCircleOutline className='ml-4' />
                         </p>
-                        <p className="text-5xl py-3 font-semibold px-3 text-gray-400 dark:text-black">Rs 40000</p>
+                        <p className="text-5xl py-3 font-semibold px-3 text-gray-400 dark:text-black">&#8377; 40000</p>
                     </div>
                     <div className='w-1/2 h-auto flex flex-col justify-center items-end'>
-                        <CiStar fontSize={80} stroke={40} className='text-green-600 font-extrabold' />
+                        <CiStar fontSize={80} stroke={40} className='text-blue-600 font-extrabold' />
                     </div>
                 </div>
             </div>
@@ -68,10 +68,10 @@ export const Wallet = () => {
                     <h1 className='text-xl text-gray-700 mt-5 mb-5 text-start bold font-bold'>Cards</h1>
                     <div className="flex items-center pt-4 w-auto px-10 justify-start flex-col h-auto rounded bg-white shadow-md">
                         <div className="flex items-center pt-4 justify-center rounded bg-white">
-                            <CiCreditCard2 className='text-4xl' /> <p className='ml-5'>Add a card to enjoy instant deposits from anywhere in Goa</p>
+                            <CiCreditCard2 className='text-4xl text-blue-600 ' /> <p className='ml-5'>Add a card to enjoy instant deposits from anywhere in Goa</p>
                         </div>
-                        <div className="flex items-center pt-3 pb-3 mb-5 mt-5 justify-center w-[95%] rounded bg-white border-2">
-                            <p className='text-4xl mr-4'>+</p><p className='text-lg'>Add new bank account</p>
+                        <div className="flex items-center pt-3 pb-3 mb-5 mt-5 justify-center w-[95%] rounded bg-blue-600 text-white border-2">
+                            <p className='text-4xl mr-4'>+</p><p className='text-lg'>Add a new card</p>
                         </div>
                     </div>
                 </div>
@@ -82,8 +82,8 @@ export const Wallet = () => {
                         <div className="flex items-center pt-4 justify-center rounded bg-white">
                             <CiBank className='text-4xl' /> <p className='ml-5'>Add your bank account from anywhere in Goa</p>
                         </div>
-                        <div className="flex items-center pt-3 pb-3 mb-5 mt-5 justify-center w-[95%] rounded bg-white border-2">
-                            <p className='text-4xl mr-4'>+</p><p className='text-lg'>Add new bank account</p>
+                        <div className="flex items-center pt-3 pb-3 mb-5 mt-5 justify-center w-[95%] rounded bg-blue-600 text-white border-2">
+                            <p className='text-4xl mr-4'>+</p><p className='text-lg'>Add a new bank account</p>
                         </div>
                     </div>
                 </div>

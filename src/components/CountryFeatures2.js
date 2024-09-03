@@ -5,7 +5,7 @@ export default function CountriesFeatures2(props) {
     <div className="overflow-hidden bg-white mt-10">
       <div className="mx-auto max-w-7xl px-6 py-2 lg:px-8">
         <div className="mx-auto grid grif max-w-2xl rounded-3xl md:backgroundshadow py-10 grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 justify-center  items-center lg:max-w-none lg:grid-cols-2">
-          <div className="lg:pr-8 lg:pt-4 flex flex-col lg:flex-row justify-start">
+          <div className="lg:pr-8 lg:pt-4 flex flex-col justify-start">
             <div className="lg:max-w-lg text-left lg:ml-14">
               <a
                 href="javascript:void(0)"

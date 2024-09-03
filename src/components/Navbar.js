@@ -414,17 +414,16 @@ export const Navbar = () => {
                     </ul>
                   </div> */}
                 </li>
-                <Link href="/Login">
+
                 <li>
                   
-                  <a
-                    href="javascript:void(0)"
+                  <Link href="/Login"
                     className="block py-3 px-4 font-medium text-center text-black rounded-lg shadow md:inline"
                   >
                     Login
-                  </a>
+                    </Link>
                 </li>
-                </Link>
+              
                 <li>
                   <a
                     href="javascript:void(0)"

@@ -5,7 +5,7 @@ export const Properties = () => {
         <div className="container">
             <div className="box">
                 <div className="top object-cover">
-                    <img className='w-full h-52 object-cover' src="https://th.bing.com/th/id/OIP.vTh0wsw7mQeRgB0Qdip_QgAAAA?rs=1&pid=ImgDetMain" alt="" />
+                    <img className='w-full h-52 object-cover' src="https://th.bing.com/th/id/OIP.vTh0wsw7mQeRgB0Qdip_QgAAAA?&#8377;=1&pid=ImgDetMain" alt="" />
                 </div>
                 <div className="bottom">
                     <h3>Home In Merrick Way</h3>
@@ -36,7 +36,7 @@ export const Properties = () => {
                             <span>$540,000</span>
                         </div>
                         <Link href="/payment">
-                        <div className='flex mt-4 bg-blue-600 items-center justify-center hover:bg-sky-600 cursor-pointer text-white rounded py-3 px-7'>
+                        <div className='flex mt-4 bg-blue-600 items-center justify-center hover:bg-sky-600 cu&#8377;or-pointer text-white rounded py-3 px-7'>
                             <p>Invest</p>
                         </div>
                         </Link>
@@ -77,7 +77,7 @@ export const Properties = () => {
                             <span>$540,000</span>
                         </div>
                         <Link href="/payment">
-                        <div className='flex mt-4 bg-blue-600 items-center justify-center hover:bg-sky-600 cursor-pointer text-white rounded py-3 px-7'>
+                        <div className='flex mt-4 bg-blue-600 items-center justify-center hover:bg-sky-600 cu&#8377;or-pointer text-white rounded py-3 px-7'>
                             <p>Invest</p>
                         </div>
                         </Link>
@@ -118,7 +118,7 @@ export const Properties = () => {
                             <span>$540,000</span>
                         </div>
                         <Link href="/payment">
-                        <div className='flex mt-4 bg-blue-600 items-center justify-center hover:bg-sky-600 cursor-pointer text-white rounded py-3 px-7'>
+                        <div className='flex mt-4 bg-blue-600 items-center justify-center hover:bg-sky-600 cu&#8377;or-pointer text-white rounded py-3 px-7'>
                             <p>Invest</p>
                         </div>
                         </Link>
