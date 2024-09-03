@@ -18,7 +18,7 @@ import { ValueTrust } from "@/components/ValueTrust";
 
 const Page = () => (
   <>
-    <Banner />
+    {/* <Banner /> */}
     <Navbar />
     <HeroSection />
     <Feature />
