@@ -36,11 +36,11 @@ export default function MobileFeature() {
             </div> */}
           </div>
           <div className="w-full relative flex items-center justify-center">
-            <div className="h-[30rem] w-[30rem] rounded-full bg-yellow-300"></div>
+            <div className="lg:h-[30rem] lg:w-[30rem] h-[15rem] w-[15rem] rounded-full bg-yellow-300"></div>
             <img
               alt="Product screenshot"
               src="https://i.ibb.co/Pt9McHc/phone.png"
-              className="w-20 absolute rounded-xl sm:w-[18rem] md:-ml-4  lg:-ml-4"
+              className="absolute rounded-xl lg:w-[18rem] w-[10rem] md:-ml-4  lg:-ml-4"
             />
           </div>
         </div>

@@ -6,7 +6,7 @@ export default function MobileFeatureTwo() {
       <div className="mx-auto max-w-7xl px-6 py-2 lg:px-8">
         <div className="mx-auto grid grif max-w-2xl rounded-3xl py-10 grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 justify-center  items-center lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
-            <div className="lg:max-w-lg text-left ml-20">
+            <div className="lg:max-w-lg text-left lg:ml-20">
               <p className=" text-3xl plus-jakarta-sans tracking-tight text-gray-900 sm:text-4xl mt-3">
                 Long term capital <br />
                 appreciation
@@ -36,11 +36,11 @@ export default function MobileFeatureTwo() {
             </div> */}
           </div>
           <div className="w-full relative flex items-center justify-center">
-            <div className="h-[30rem] w-[30rem] rounded-full bg-blue-600"></div>
+            <div className="lg:h-[30rem] lg:w-[30rem] h-[15rem] w-[15rem] rounded-full bg-blue-600"></div>
             <img
               alt="Product screenshot"
               src="https://i.ibb.co/ZYPM08g/phone2.png"
-              className="w-20 absolute rounded-xl sm:w-[22rem] md:-ml-4  lg:-ml-4"
+              className="absolute rounded-xl lg:w-[18rem] w-[10rem] md:-ml-4  lg:-ml-4"
             />
           </div>
         </div>

@@ -12,7 +12,7 @@ export const GrowYourMoney = () => {
             So, how do I make money?
           </p>
           <p className="mt-9 plus-jakarta-sans font-bold tracking-normal text-gray-900 sm:text-3xl">
-            Real Estate Investors <span className="text-blue-600">typically earn</span><br />an average<span className="text-blue-600">8-9%</span> returns each year
+            Real Estate Investors <span className="text-blue-600">typically earn</span><br />an average<span className="text-blue-600"> 8-9%</span> returns each year
           </p>
         </div>
       </div>
