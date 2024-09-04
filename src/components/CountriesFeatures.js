@@ -1,5 +1,6 @@
 import { MdOutlinePlayCircleOutline } from "react-icons/md";
 import Flag from 'react-world-flags'
+import {motion} from "framer-motion"
 export default function CountriesFeatures(props) {
   return (
     <div className="overflow-hidden bg-white">
@@ -57,13 +58,14 @@ export default function CountriesFeatures(props) {
               </button>
             </div>
           </div>
-          <div className="parent_screenshot w-full flex items-center justify-end">
+          <motion.div whileHover={{ scale: [null, 1, 1.1] }}
+                      transition={{ duration: 0.3 }} className="parent_screenshot w-full flex items-center justify-end">
             <img
               alt="Product screenshot"
               src="https://i.ibb.co/f8SYcQL/stakes.png"
               className="w-full  rounded-xl lg:w-[full] md:-ml-4  lg:-ml-4"
             />
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import { MdOutlinePlayCircleOutline } from "react-icons/md";
+import {motion} from "framer-motion"
 import Flag from "react-world-flags";
 export default function MobileFeatureTwo() {
   return (
@@ -37,11 +38,19 @@ export default function MobileFeatureTwo() {
           </div>
           <div className="w-full relative flex items-center justify-center">
             <div className="lg:h-[30rem] lg:w-[30rem] h-[15rem] w-[15rem] rounded-full bg-blue-600"></div>
+            <motion.div
+            
+            animate={{ marginBottom: "24px" }}
+            transition={{  duration: 0.6, repeatType: 'reverse' ,repeat: Infinity }}
+            className="absolute rounded-xl lg:w-[18rem] w-[10rem] md:-ml-4  lg:-ml-4"
+            >
             <img
               alt="Product screenshot"
               src="https://i.ibb.co/ZYPM08g/phone2.png"
-              className="absolute rounded-xl lg:w-[18rem] w-[10rem] md:-ml-4  lg:-ml-4"
+              
             />
+            </motion.div>
+
           </div>
         </div>
       </div>

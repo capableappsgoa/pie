@@ -1,4 +1,5 @@
 import { MdOutlinePlayCircleOutline } from "react-icons/md";
+import {motion} from "framer-motion"
 import Flag from 'react-world-flags'
 export default function CountriesFeatures2(props) {
   return (
@@ -33,13 +34,14 @@ export default function CountriesFeatures2(props) {
 
             </div>
           </div>
-          <div className="parent_screenshot w-full flex items-center justify-end">
+          <motion.div whileHover={{ scale: [null, 1, 1.1] }}
+                      transition={{ duration: 0.3 }} className="parent_screenshot w-full flex items-center justify-end">
             <img
               alt="Product screenshot"
               src="https://i.ibb.co/3NTjvjX/Untitled-5.png"
               className="w-full  rounded-xl lg:w-[full] md:-ml-4  lg:-ml-4"
             />
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

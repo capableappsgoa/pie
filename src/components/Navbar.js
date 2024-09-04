@@ -1,8 +1,10 @@
 import React from "react";
-import { useState , useEffect } from "react";
+import { useState, useEffect } from "react";
 import Link from 'next/link'
+import { motion } from "framer-motion";
 
 export const Navbar = () => {
+  
   const [state, setState] = useState(false);
   const [drapdownState, setDrapdownState] = useState({
     isActive: false,
@@ -169,7 +171,9 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav
+      <motion.div
+        initial={{ opacity: 0, scale: 0, duration: 0.7 }}
+        animate={{ opacity: 1, scale: 1, duration: 0.5 }}
         className={`relative bg-white w-full md:static md:text-sm md:border-none shadow-md z-50`}
       >
         <div className="items-center gap-x-14 px-6 max-w-screen-xl mx-auto md:flex md:px-8">
@@ -182,7 +186,7 @@ export const Navbar = () => {
                 alt="stakes"
               />
             </a>
-           
+
             <div className="md:hidden">
               <button
                 className="text-gray-500 hover:text-gray-800"
@@ -219,9 +223,8 @@ export const Navbar = () => {
             </div>
           </div>
           <div
-            className={`nav-menu flex-1 pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-              state ? "block" : "hidden"
-            }`}
+            className={`nav-menu flex-1 pb-3 mt-8 md:block md:pb-0 md:mt-0 ${state ? "block" : "hidden"
+              }`}
           >
             <ul className="items-center space-y-6 md:flex md:space-x-6 md:space-y-0">
               {navigation.map((item, idx) => {
@@ -275,8 +278,8 @@ export const Navbar = () => {
                       </a>
                     )}
                     {item.isDrapdown &&
-                    drapdownState.idx == idx &&
-                    drapdownState.isActive ? (
+                      drapdownState.idx == idx &&
+                      drapdownState.isActive ? (
                       <div className="mt-6 inset-x-0 top-20 w-full md:absolute md:border-y md:shadow-md md:mt-0">
                         <ul className="max-w-screen-xl mx-auto grid items-center gap-6 md:p-8 md:grid-cols-2 lg:grid-cols-3">
                           {item?.navs.map((dropdownItem, idx) => (
@@ -416,14 +419,14 @@ export const Navbar = () => {
                 </li>
 
                 <li>
-                  
+
                   <Link href="/Login"
                     className="block py-3 px-4 font-medium text-center text-black rounded-lg shadow md:inline"
                   >
                     Login
-                    </Link>
+                  </Link>
                 </li>
-              
+
                 <li>
                   <a
                     href="javascript:void(0)"
@@ -436,7 +439,7 @@ export const Navbar = () => {
             </ul>
           </div>
         </div>
-      </nav>
+      </motion.div>
       {state ? (
         <div
           className="z-10 fixed top-0 w-screen h-screen bg-black/20 backdrop-blur-sm md:hidden"

@@ -1,9 +1,13 @@
-import playstore from "../assets/yellow.png";
+import { motion } from "framer-motion";
 export const HeroSection = () => {
   return (
     <section className="relative h-auto">
       <div className="max-w-screen-xl mx-auto px-4 gap-12 text-gray-600 overflow-hidden md:px-8 md:flex relative z-10">
-        <div className="flex-none space-y-5 lg:w-1/2 sm:w-[80%] max-w-xl mt-28">
+        <motion.div
+          whileHover={{ scale: [null, 1, 1.1] }}
+          transition={{ duration: 0.3 }}
+          initial={{ opacity: 0, scale: 0, duration: 0.3 }}
+          animate={{ opacity: 1, scale: 1, duration: 0.5 }} className="flex-none space-y-5 lg:w-1/2 sm:w-[80%] max-w-xl mt-28">
           <a
             href="javascript:void(0)"
             className="inline-flex gap-x-6 items-center rounded-full p-1 pr-6 border border-[#202094] text-sm font-medium duration-150 bg-[#ecfbff] hover:bg-white"
@@ -44,17 +48,25 @@ export const HeroSection = () => {
               alt=""
             />
           </div>
-        </div>
-        <div className="w-full relative flex items-center justify-center">
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: [null, 1, 1.1] }}
+          transition={{ duration: 0.3 }}
+          initial={{ opacity: 0, scale: 0, duration: 0.7 }}
+          animate={{ opacity: 1, scale: 1, duration: 0.5 }}
+          className="w-full relative flex items-center justify-center">
+
+
           <div className="h-[20rem] w-[20rem] lg:h-[25rem] lg:w-[25rem]  rounded-full bg-blue-600">
 
           </div>
+
           <img
             alt="Product screenshot"
             src="https://i.ibb.co/drFZY7C/Untitled-2.png"
             className="lg:w-[15rem] absolute rounded-xl w-[11rem] md:-ml-4  lg:-ml-4"
           />
-        </div>
+        </motion.div>
       </div>
     </section>
   );

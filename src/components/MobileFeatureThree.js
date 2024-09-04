@@ -1,4 +1,4 @@
-
+import {motion} from "framer-motion"
 
 export default function MobileFeatureThree() {
   return (
@@ -37,11 +37,17 @@ export default function MobileFeatureThree() {
           </div>
           <div className="w-full relative flex items-center justify-center">
             <div className="lg:h-[30rem] lg:w-[30rem] h-[15rem] w-[15rem] rounded-full bg-yellow-300"></div>
-            <img
+          <motion.div
+            
+            animate={{ marginBottom: "24px" }}
+            transition={{  duration: 0.6, repeatType: 'reverse' ,repeat: Infinity }} className="absolute lg:w-[18rem] w-[10rem] rounded-xl md:-ml-4  lg:-ml-4">
+<img
               alt="Product screenshot"
               src="https://i.ibb.co/S7nZxzq/mobile-feature-3.png"
-              className="absolute lg:w-[18rem] w-[10rem] rounded-xl md:-ml-4  lg:-ml-4"
+              
             />
+          </motion.div>
+            
           </div>
         </div>
       </div>

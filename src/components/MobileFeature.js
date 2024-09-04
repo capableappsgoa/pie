@@ -1,5 +1,6 @@
 import { MdOutlinePlayCircleOutline } from "react-icons/md";
 import Flag from "react-world-flags";
+import {motion} from "framer-motion"
 export default function MobileFeature() {
   return (
     <div className="overflow-hidden bg-white">
@@ -37,11 +38,17 @@ export default function MobileFeature() {
           </div>
           <div className="w-full relative flex items-center justify-center">
             <div className="lg:h-[30rem] lg:w-[30rem] h-[15rem] w-[15rem] rounded-full bg-yellow-300"></div>
-            <img
+
+            <motion.div
+            
+                        animate={{ marginBottom: "24px" }}
+                        transition={{  duration: 0.6, repeatType: 'reverse' ,repeat: Infinity }} className="absolute rounded-xl lg:w-[18rem] w-[10rem] md:-ml-4  lg:-ml-4">
+              <img
               alt="Product screenshot"
               src="https://i.ibb.co/Pt9McHc/phone.png"
-              className="absolute rounded-xl lg:w-[18rem] w-[10rem] md:-ml-4  lg:-ml-4"
-            />
+              className=""
+              />
+            </motion.div>
           </div>
         </div>
       </div>
