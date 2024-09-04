@@ -45,7 +45,7 @@ export default function MobileFeature() {
                         transition={{  duration: 0.6, repeatType: 'reverse' ,repeat: Infinity }} className="absolute rounded-xl lg:w-[18rem] w-[10rem] md:-ml-4  lg:-ml-4">
               <img
               alt="Product screenshot"
-              src="https://i.ibb.co/Pt9McHc/phone.png"
+              src="https://i.ibb.co/3fcPy70/phone.png"
               className=""
               />
             </motion.div>
