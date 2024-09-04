@@ -158,7 +158,7 @@ export const FooterCode = () => {
                 d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
             </svg>
           </span>
-          New York, NY 10012, US
+         Goa , India
         </p>
         <p class="mb-4 flex items-center justify-center md:justify-start">
           <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
@@ -186,7 +186,7 @@ export const FooterCode = () => {
                 clip-rule="evenodd" />
             </svg>
           </span>
-          + 01 234 567 88
+          + 91 234 567 88
         </p>
         <p class="flex items-center justify-center md:justify-start">
           <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
@@ -200,7 +200,7 @@ export const FooterCode = () => {
                 clip-rule="evenodd" />
             </svg>
           </span>
-          + 01 234 567 89
+          + 91 234 567 89
         </p>
       </div>
     </div>
